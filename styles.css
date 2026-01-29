@@ -28,8 +28,8 @@
     --spacing-xl: 6rem;
     
     /* Typography */
-    --font-display: 'Outfit', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-display: 'Syne', sans-serif;
+    --font-body: 'DM Sans', sans-serif;
     
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -89,13 +89,13 @@ body {
 
 .logo-text {
     font-family: var(--font-display);
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.75rem;
+    font-weight: 800;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
 }
 
 .nav-links {
@@ -185,11 +185,11 @@ body {
 
 .hero-title {
     font-family: var(--font-display);
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 700;
-    line-height: 1.2;
+    font-size: clamp(2.5rem, 6vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1.1;
     margin-bottom: var(--spacing-md);
-    letter-spacing: -0.03em;
+    letter-spacing: -0.02em;
 }
 
 .title-line {
@@ -219,7 +219,7 @@ body {
 }
 
 .hero-description {
-    font-size: 1.0625rem;
+    font-size: 1.125rem;
     color: var(--color-text-secondary);
     max-width: 500px;
     margin-bottom: var(--spacing-md);
@@ -339,15 +339,14 @@ body {
 
 .section-title {
     font-family: var(--font-display);
-    font-size: clamp(1.75rem, 3.5vw, 2.75rem);
-    font-weight: 700;
+    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-weight: 800;
     margin-bottom: var(--spacing-sm);
     letter-spacing: -0.02em;
 }
 
 .section-subtitle {
-    font-size: 1.125rem;
-    font-weight: 400;
+    font-size: 1.25rem;
     color: var(--color-text-secondary);
 }
 
@@ -428,8 +427,8 @@ body {
 
 .product-title {
     font-family: var(--font-display);
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 1.5rem;
+    font-weight: 700;
     margin-bottom: var(--spacing-sm);
 }
 
@@ -488,7 +487,7 @@ body {
 
 .about-description {
     color: var(--color-text-secondary);
-    font-size: 1.0625rem;
+    font-size: 1.125rem;
     line-height: 1.8;
     margin-bottom: var(--spacing-md);
 }
@@ -517,8 +516,8 @@ body {
 
 .stat-number {
     font-family: var(--font-display);
-    font-size: 2rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 800;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -597,7 +596,7 @@ body {
 }
 
 .contact-description {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     color: var(--color-text-secondary);
     margin-bottom: var(--spacing-lg);
 }
@@ -690,7 +689,7 @@ body {
 
 .footer-heading {
     font-family: var(--font-display);
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: var(--spacing-sm);
 }
 
