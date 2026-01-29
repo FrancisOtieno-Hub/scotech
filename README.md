@@ -82,7 +82,7 @@ Edit the CSS variables in `styles.css` (lines 2-18):
 
 ### Changing Fonts
 
-Current fonts: **Outfit** (headings) and **Inter** (body)
+Current fonts: **Syne** (headings) and **DM Sans** (body)
 
 To change:
 1. Go to [Google Fonts](https://fonts.google.com)
@@ -214,7 +214,7 @@ For questions or issues:
 
 ## 🎨 Design Credits
 
-- **Fonts**: Google Fonts (Outfit, Inter)
+- **Fonts**: Google Fonts (Syne, DM Sans)
 - **Icons**: Feather Icons style
 - **Color Palette**: Custom cyan/light blue gradient design
 - **Inspiration**: Modern SaaS landing pages
