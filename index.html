@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scotech - Innovative digital solutions including School Management System, Messaging App, and Daily Motivation tools">
+    <meta name="keywords" content="school management, messaging app, motivation app, age calculator, Kenya tech">
+    <meta name="author" content="Scotech">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.scotech.co.ke/">
+    <meta property="og:title" content="Scotech - Digital Innovation in Kenya">
+    <meta property="og:description" content="Innovative digital solutions for schools, communication, and personal development">
+    
+    <title>Scotech - Digital Innovation in Kenya</title>
+    
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="logo">
+                    <span class="logo-text">SCOTECH</span>
+                </a>
+                <div class="nav-links">
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                <button class="mobile-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Building Digital</span>
+                    <span class="title-line">Solutions for</span>
+                    <span class="title-line gradient-text">Tomorrow</span>
+                </h1>
+                <p class="hero-description">
+                    Innovative software solutions designed to transform education, 
+                    communication, and personal development across Kenya and beyond.
+                </p>
+                <div class="hero-cta">
+                    <a href="#products" class="btn btn-primary">Explore Products</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1"></div>
+                <div class="floating-card card-2"></div>
+                <div class="floating-card card-3"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Products</h2>
+                <p class="section-subtitle">Powerful tools designed with purpose</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- SMS - School Management System -->
+                <article class="product-card" data-product="sms">
+                    <div class="product-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="product-title">School Management System</h3>
+                    <p class="product-description">
+                        Comprehensive platform for managing student records, attendance, 
+                        grades, and communication between teachers, students, and parents.
+                    </p>
+                    <a href="https://sms.scotech.co.ke" class="product-link" target="_blank" rel="noopener">
+                        Launch App
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Sokem - Messaging App -->
+                <article class="product-card" data-product="sokem">
+                    <div class="product-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="product-title">Sokem Messenger</h3>
+                    <p class="product-description">
+                        Fast, secure, and intuitive messaging platform connecting 
+                        people with seamless communication and rich features.
+                    </p>
+                    <a href="https://sokem.scotech.co.ke" class="product-link" target="_blank" rel="noopener">
+                        Launch App
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Gidbye - Daily Motivation -->
+                <article class="product-card" data-product="gidbye">
+                    <div class="product-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"></path>
+                        </svg>
+                    </div>
+                    <h3 class="product-title">Gidbye Motivation</h3>
+                    <p class="product-description">
+                        Daily doses of inspiration and motivation to keep you 
+                        energized and focused on your personal growth journey.
+                    </p>
+                    <a href="https://gidbye.scotech.co.ke" class="product-link" target="_blank" rel="noopener">
+                        Launch App
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Age Calculator -->
+                <article class="product-card" data-product="age">
+                    <div class="product-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3 class="product-title">Age & Birthday Countdown</h3>
+                    <p class="product-description">
+                        Calculate your exact age and countdown to special moments 
+                        with precision and beautiful visualization.
+                    </p>
+                    <a href="https://age.scotech.co.ke" class="product-link" target="_blank" rel="noopener">
+                        Launch App
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </article>
+
+                <!-- Coming Soon Card -->
+                <article class="product-card product-card-soon">
+                    <div class="product-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3 class="product-title">More Coming Soon</h3>
+                    <p class="product-description">
+                        We're constantly innovating and building new solutions. 
+                        Stay tuned for exciting new products launching soon.
+                    </p>
+                    <div class="product-badge">Coming Soon</div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Scotech</h2>
+                    <p class="about-description">
+                        We are a Kenyan technology company dedicated to creating 
+                        innovative digital solutions that solve real-world problems. 
+                        From education management to personal development tools, 
+                        we build software that makes a difference.
+                    </p>
+                    <p class="about-description">
+                        Our mission is to empower individuals, schools, and organizations 
+                        with technology that's both powerful and accessible. We believe 
+                        in creating products that are not just functional, but delightful to use.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Active Products</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Kenyan Innovation</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Possibilities Ahead</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-grid">
+                        <div class="visual-item"></div>
+                        <div class="visual-item"></div>
+                        <div class="visual-item"></div>
+                        <div class="visual-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Let's Build Together</h2>
+                <p class="contact-description">
+                    Have a project in mind? Want to collaborate? We'd love to hear from you.
+                </p>
+                <div class="contact-methods">
+                    <a href="/cdn-cgi/l/email-protection#f59c9b939ab586969a8190969ddb969adb9e90" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-label">Email</div>
+                            <div class="contact-value"><span class="__cf_email__" data-cfemail="1d74737b725d6e7e7269787e75337e72337678">[email&#160;protected]</span></div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/scotech" class="contact-card" target="_blank" rel="noopener">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                            </svg>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-label">GitHub</div>
+                            <div class="contact-value">Follow our work</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-text">SCOTECH</div>
+                    <p class="footer-tagline">Building the future, one line of code at a time.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Products</h4>
+                        <a href="https://sms.scotech.co.ke" class="footer-link" target="_blank" rel="noopener">School Management</a>
+                        <a href="https://sokem.scotech.co.ke" class="footer-link" target="_blank" rel="noopener">Sokem Messenger</a>
+                        <a href="https://gidbye.scotech.co.ke" class="footer-link" target="_blank" rel="noopener">Gidbye Motivation</a>
+                        <a href="https://age.scotech.co.ke" class="footer-link" target="_blank" rel="noopener">Age Calculator</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4 class="footer-heading">Company</h4>
+                        <a href="#about" class="footer-link">About Us</a>
+                        <a href="#contact" class="footer-link">Contact</a>
+                        <a href="#" class="footer-link">Careers</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 Scotech. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#" class="footer-link-small">Privacy Policy</a>
+                    <a href="#" class="footer-link-small">Terms of Servi
